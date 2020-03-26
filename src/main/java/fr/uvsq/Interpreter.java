@@ -1,6 +1,9 @@
+package fr.uvsq;
 
+
+import com.sun.org.apache.xalan.internal.xsltc.runtime.Hashtable;
 import fr.uvsq.Command;
-import java.util.HashSet;
+import java.util.List;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -8,7 +11,7 @@ import java.util.Stack;
 public class Interpreter {
 
     protected Stack history = new Stack();
-    protected HashSet set = new HashSet();
+    protected Hashtable set = new Hashtable();
 
     public void session() {
         while (true) {
@@ -31,6 +34,6 @@ public class Interpreter {
             System.out.println(""+s);
             s = sc.nextLine();
         }
-       // return (Command) ((Command) set.getClass().c
+       return  ((Command)set.get(s));
     }
 }
