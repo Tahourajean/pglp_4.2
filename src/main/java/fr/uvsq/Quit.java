@@ -24,8 +24,7 @@ public class Quit extends Command{
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
-    @Override
-    public void calculSurOperande() {
+    public void calculSurOperande(Operation sign) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -38,6 +37,6 @@ public class Quit extends Command{
     public void RetournerEnsembleOperandeStocker() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
-    
+
     
 }

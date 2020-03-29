@@ -12,7 +12,7 @@ package fr.uvsq;
 public abstract class Command implements Cloneable{
     public abstract void execute();
     public abstract void undo();
-    public abstract void calculSurOperande();
+    public abstract void calculSurOperande(Operation sign);
     public abstract void enregistrerOperande();
     public abstract void RetournerEnsembleOperandeStocker();
 }

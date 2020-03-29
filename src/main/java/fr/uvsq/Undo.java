@@ -24,7 +24,7 @@ class Undo extends Command {
    }
 
     @Override
-    public void calculSurOperande() {
+    public void calculSurOperande(Operation sign) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
@@ -38,6 +38,7 @@ class Undo extends Command {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
+    
 
     
 }
