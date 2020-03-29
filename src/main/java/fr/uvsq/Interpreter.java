@@ -8,7 +8,7 @@ import java.util.Scanner;
 import java.util.Stack;
 
 
-public class Interpreter {
+public abstract class Interpreter {
 
     protected Stack history = new Stack();
     protected Hashtable set = new Hashtable();
